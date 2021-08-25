@@ -16,6 +16,7 @@ def pc_random_choice():
     pc_choice = random.choice(('rock', 'paper', 'scissors'))
     return pc_choice
 
+
 def output_result(user_choice, pc_option):
     # this function uses combinations dictionary to choose the winner.
     # "combinations" keys are the options of the game and it's keys represents the option that defeats the key
